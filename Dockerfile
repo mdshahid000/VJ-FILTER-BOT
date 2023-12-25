@@ -14,4 +14,4 @@ RUN mkdir /VJ-FILTER-BOT
 WORKDIR /VJ-FILTER-BOT
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
-Expose 3306
+
